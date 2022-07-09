@@ -1,0 +1,51 @@
+body{
+    font-family: Lora;
+    font-size: 120%;
+    background-image: url("images/img-2.jpg");
+    background-size: 1680px 1200px;
+}
+h1{
+    font-size: 200%;
+    text-align: center;
+    border-bottom: solid;
+}
+.form_container{
+    margin: auto;
+    width: 60%;
+    padding: 2% 0% 2% 8%;
+    background-color: #f2ffecda;
+    border-radius: 10%;
+    border: solid rgba(181, 181, 181, 0.766);
+}
+.form_element{
+    font-weight: 50px;
+    width:60%;
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+input[type=radio]{
+    width: 10%;
+}
+input[type=checkbox]{
+    width: 5%;
+}
+input[type=submit]{
+    width: 25%;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    width:50%;
+    font-family: monospace;
+    font-size: large;
+    border-radius: 30px;
+    border: solid 2px #6a6969a4;
+}
+textarea{
+    padding: 10px;
+    border-radius: 30px;
+    font-family: monospace;
+    font-size: 13px;
+    border: solid 2px #6a6969a4;
+}
+
