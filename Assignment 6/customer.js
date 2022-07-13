@@ -55,7 +55,8 @@ for(let i=0; i<5; i++){
             console.log(`${itemName} : ${itemPrice}`)
             itemList.push(item);
         }
-        customerList[i].purchaseHistory.push(addPurchase(purchaseDate,itemList));            
+        let purchase = addPurchase(purchaseDate,itemList);
+        customerList[i].purchaseHistory.push(purchase);            
     }
     customerList[i].totalPurchaseAmount = total_price;
     console.log(`Total Amount is - ${customerList[i].totalPurchaseAmount}`);             
