@@ -1,0 +1,26 @@
+[
+    {
+        "id":101,
+        "name":"phone",
+        "price":20000,
+        "quantity":2
+    },
+    {
+        "id":102,
+        "name":"earbuds",
+        "price":5000,
+        "quantity":3
+    },
+    {
+        "id":103,
+        "name":"laptop",
+        "price":40000,
+        "quantity":1
+    },
+    {
+        "id":104,
+        "name":"toothbrush",
+        "price":20,
+        "quantity":5
+    }
+]
